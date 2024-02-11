@@ -15,7 +15,7 @@
    ```bash
    curl -L https://fly.io/install.sh | sh
    ```
-
+   
 3. **Open your zshrc File**
 
   Open your zshrc file by entering the following command in your terminal:
@@ -34,7 +34,7 @@
 
 5. **Launch your server**
 
-  Naviage to the directory where you `server.js` is located and run the following     command:
+  Navigate to the directory where you `server.js` is located and run the following     command:
 
   ```bash
   flynctl launch
