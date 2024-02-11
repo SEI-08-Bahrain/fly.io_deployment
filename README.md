@@ -46,9 +46,9 @@
    ```bash
    flynctl launch
    ```
-
+   
 6.  **Set secrets(environment variables) for your project**
-
+   
    Set the necessary secrets for your application using the following command format:
 
    ```bash
