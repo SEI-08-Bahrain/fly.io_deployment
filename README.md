@@ -1,5 +1,7 @@
 # fly.io deployment
 
+<img src="https://i.imgur.com/98fJcc7.jpg">
+
 ## To set up and deploy your project, follow the steps below:
 
 1. **Sign up for a fly.io Account**
