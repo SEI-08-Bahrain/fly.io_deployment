@@ -21,14 +21,14 @@
    Open your zshrc file by entering the following command in your terminal:
 
    ```bash 
-     open ~/.zshrc
+   open ~/.zshrc
    ```
 
    Add the following to your `zshrc` file:
 
    ```bash
-      export FLYCTL_INSTALL="/Users/pp/.fly"
-      export PATH="$FLYCTL_INSTALL/bin:$PATH"
+   export FLYCTL_INSTALL="/Users/pp/.fly"
+   export PATH="$FLYCTL_INSTALL/bin:$PATH"
    ```
 
 4. **Login to your fly.io account** 
@@ -36,7 +36,7 @@
    Authenticate your fly.io account through the command line:
 
    ```bash
-     flyctl auth login
+   flyctl auth login
    ```
 
 5. **Launch your server**
@@ -44,7 +44,7 @@
    Navigate to the directory where you `server.js` is located and run the following command:
 
    ```bash
-     flynctl launch
+   flynctl launch
    ```
 
 6.  **Set secrets(environment variables) for your project**
@@ -52,7 +52,7 @@
    Set the necessary secrets for your application using the following command format:
 
    ```bash
-     flyctl secrets set <SECRET KEY>=<your secret key>
+   flyctl secrets set <SECRET KEY>=<your secret key>
    ```
 
   Example:
@@ -70,7 +70,7 @@
    Deploy your application using the following command:
 
    ```bash
-     flyctl deploy
+   flyctl deploy
    ```
 
 8. **Update Google Cloud Console Credentials**
