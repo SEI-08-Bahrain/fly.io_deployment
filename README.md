@@ -58,7 +58,7 @@
    Example:
 
   ```bash
-   flyctl secrets set DATABASE_URL=mongodb+srv://lilpp:lilpp@cluster0.bvo1sdn.mongodb.net/mongoose-movies?retryWrites=true&w=majority
+   flyctl secrets set DATABASE_URL=mongodb+srv://<yourusername>:<yourpassword>@cluster0.bvo1sdn.mongodb.net/mongoose-movies?retryWrites=true&w=majority
    flyctl secrets set GOOGLE_CLIENT_ID=232108574874-st09fal7v3039am9nresglkv9sa6mb3b.apps.googleusercontent.com
    flyctl secrets set GOOGLE_SECRET=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
    flyctl secrets set GOOGLE_CALLBACK=https://mongoose-movies-test.fly.dev/oauth2callback
