@@ -55,7 +55,7 @@
    flyctl secrets set <SECRET KEY>=<your secret key>
    ```
 
-  Example:
+   Example:
 
   ```bash
    flyctl secrets set DATABASE_URL=mongodb+srv://lilpp:lilpp@cluster0.bvo1sdn.mongodb.net/mongoose-movies?retryWrites=true&w=majority
