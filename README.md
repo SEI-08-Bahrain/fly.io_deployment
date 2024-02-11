@@ -18,53 +18,53 @@
    
 3. **Open your zshrc File**
 
-  Open your zshrc file by entering the following command in your terminal:
+   Open your zshrc file by entering the following command in your terminal:
 
-  ```bash 
-  open ~/.zshrc
-  ```
+   ```bash 
+     open ~/.zshrc
+   ```
 
 4. **Login to your fly.io account** 
 
-  Authenticate your fly.io account through the command line:
+   Authenticate your fly.io account through the command line:
 
-  ```bash
-  flyctl auth login
-  ```
+   ```bash
+     flyctl auth login
+   ```
 
 5. **Launch your server**
 
-  Navigate to the directory where you `server.js` is located and run the following     command:
+   Navigate to the directory where you `server.js` is located and run the following     command:
 
-  ```bash
-  flynctl launch
-  ```
+   ```bash
+     flynctl launch
+   ```
 
 6.  **Set secrets(environment variables) for your project**
 
-  Set the necessary secrets for your application using the following command format:
+   Set the necessary secrets for your application using the following command format:
 
-  ```bash
-  flyctl secrets set <SECRET KEY>=<your secret key>
-  ```
+   ```bash
+     flyctl secrets set <SECRET KEY>=<your secret key>
+   ```
 
   Example:
 
   ```bash
-  flyctl secrets set DATABASE_URL=mongodb+srv://lilpp:lilpp@cluster0.bvo1sdn.mongodb.net/mongoose-movies?retryWrites=true&w=majority
-flyctl secrets set GOOGLE_CLIENT_ID=232108574874-st09fal7v3039am9nresglkv9sa6mb3b.apps.googleusercontent.com
-flyctl secrets set GOOGLE_SECRET=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
-flyctl secrets set GOOGLE_CALLBACK=https://mongoose-movies-test.fly.dev/oauth2callback
-flyctl secrets set SECRET=samboosaforlunch
+   flyctl secrets set DATABASE_URL=mongodb+srv://lilpp:lilpp@cluster0.bvo1sdn.mongodb.net/mongoose-movies?retryWrites=true&w=majority
+   flyctl secrets set GOOGLE_CLIENT_ID=232108574874-st09fal7v3039am9nresglkv9sa6mb3b.apps.googleusercontent.com
+   flyctl secrets set GOOGLE_SECRET=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
+   flyctl secrets set GOOGLE_CALLBACK=https://mongoose-movies-test.fly.dev/oauth2callback
+   flyctl secrets set SECRET=samboosaforlunch
   ```
 
 7.  **Deploy the App**
 
-  Deploy your application using the following command:
+   Deploy your application using the following command:
 
-  ```bash
-  flyctl deploy
-  ```
+   ```bash
+     flyctl deploy
+   ```
 
 8. **Update Google Cloud Console Credentials**
 
