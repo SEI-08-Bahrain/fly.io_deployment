@@ -24,6 +24,13 @@
      open ~/.zshrc
    ```
 
+   Add the following to your `zshrc` file:
+
+   ```bash
+      export FLYCTL_INSTALL="/Users/pp/.fly"
+      export PATH="$FLYCTL_INSTALL/bin:$PATH"
+   ```
+
 4. **Login to your fly.io account** 
 
    Authenticate your fly.io account through the command line:
@@ -34,7 +41,7 @@
 
 5. **Launch your server**
 
-   Navigate to the directory where you `server.js` is located and run the following     command:
+   Navigate to the directory where you `server.js` is located and run the following command:
 
    ```bash
      flynctl launch
