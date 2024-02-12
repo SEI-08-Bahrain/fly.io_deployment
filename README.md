@@ -80,7 +80,7 @@
 
      **Add Authorized Redirect URI:**
      - Add the following URI as an authorized redirect URI:
-       - `https://mongoose-movies-test.fly.dev/oauth2callback`
+       - `https://<yourdomainname>.fly.dev/oauth2callback`
 
 
 Now your application is set up and deployed on fly.io!
