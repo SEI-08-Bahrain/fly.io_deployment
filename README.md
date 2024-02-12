@@ -41,7 +41,7 @@
 
 5. **Launch your server**
 
-   Navigate to the directory where you `server.js` is located and run the following command:
+   Navigate to the directory where your `server.js` is located and run the following command:
 
    ```bash
    flynctl launch
