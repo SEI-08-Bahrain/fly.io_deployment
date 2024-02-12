@@ -83,7 +83,11 @@
        - `https://<yourdomainname>.fly.dev/oauth2callback`
 
 
-Now your application is set up and deployed on fly.io!
+[Now your application is set up and deployed on fly.io!](https://www.youtube.com/watch?v=6zT4Y-QNdto)
+
+
+
+
 
 
 
