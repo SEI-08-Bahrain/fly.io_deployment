@@ -50,10 +50,13 @@
    ```bash
    flyctl launch
    ```
+   When prompted to type `Y/N` to adjust settings, type `Y` and the fly.io dashboard should open up in your browser. Adjust these settings as you like, particularly your app name, as that is what will be your fly.io URL.
 
-   WHen prompted to type `Y/N` to adjust settings, type `Y` and the fly.io dashboard should open up in your browser. Adjust these settings as you like, particularly your app name, as that is what will be your fly.io URL.
+   ```
+   http://my-app-name.fly.dev
+   ```
    
-7.  **Set secrets(environment variables) for your project**
+8.  **Set secrets(environment variables) for your project**
    
    Set the necessary secrets for your application using the following command format:
 
