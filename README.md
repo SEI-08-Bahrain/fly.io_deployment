@@ -48,7 +48,7 @@
    Navigate to the directory where your `server.js` is located and run the following command:
 
    ```bash
-   flynctl launch
+   flyctl launch
    ```
    
 7.  **Set secrets(environment variables) for your project**
