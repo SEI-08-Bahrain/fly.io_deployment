@@ -18,20 +18,24 @@
    
 3. **Open your zshrc File**
 
-   Open your zshrc file by entering the following command in your terminal:
+   After installing the CLI, you should see an output that recommends adding two lines to your `.zshrc` file. They will look similar to this:
+
+   ```sh
+   export FLYCTL_INSTALL="/Users/<your_username>/.fly"
+   export PATH="$FLYCTL_INSTALL/bin:$PATH"
+   ```
+
+   Copy these two lines.
+   
+   Open your `.zshrc` file by entering the following command in your terminal:
 
    ```bash 
    open ~/.zshrc
    ```
 
-   Add the following to your `zshrc` file:
+   Then paste the two lines at the bottom of this file and save.
 
-   ```bash
-   export FLYCTL_INSTALL="/Users/pp/.fly"
-   export PATH="$FLYCTL_INSTALL/bin:$PATH"
-   ```
-
-4. **Login to your fly.io account** 
+5. **Login to your fly.io account** 
 
    Authenticate your fly.io account through the command line:
 
@@ -39,7 +43,7 @@
    flyctl auth login
    ```
 
-5. **Launch your server**
+6. **Launch your server**
 
    Navigate to the directory where your `server.js` is located and run the following command:
 
@@ -47,7 +51,7 @@
    flynctl launch
    ```
    
-6.  **Set secrets(environment variables) for your project**
+7.  **Set secrets(environment variables) for your project**
    
    Set the necessary secrets for your application using the following command format:
 
